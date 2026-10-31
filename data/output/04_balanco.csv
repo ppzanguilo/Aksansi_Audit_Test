@@ -1,0 +1,20 @@
+Conta,Desc_Conta,Sub_Conta,Desc_Sub_Conta,Tipo_Conta,Natureza,Tipo_Movimento,Debito_N,Credito_N,Saldo_N,Debito_N1,Credito_N1,Saldo_N1
+11,Caixa,111,Caixa Geral CAC,BS,D,+,15000.00,12000.00,3000.00,10000.00,8500.00,1500.00
+12,Depósitos à Ordem,121,Conta Bancária BPC,BS,D,+,250000.00,180000.00,70000.00,200000.00,160000.00,40000.00
+12,Depósitos à Ordem,122,Conta Bancária BAI,BS,D,+,120000.00,95000.00,25000.00,100000.00,85000.00,15000.00
+21,Clientes,211,Clientes Nacionais,BS,D,+,85000.00,60000.00,25000.00,70000.00,55000.00,15000.00
+21,Clientes,212,Clientes Internacionais,BS,D,+,45000.00,30000.00,15000.00,40000.00,28000.00,12000.00
+22,Fornecedores,221,Fornecedores Nacionais,BS,C,-,35000.00,55000.00,20000.00,30000.00,48000.00,18000.00
+22,Fornecedores,222,Fornecedores Internacionais,BS,C,-,10000.00,18000.00,8000.00,8000.00,15000.00,7000.00
+24,Estado e Outros Entes Públicos,241,IRT a Pagar,BS,C,-,12000.00,18000.00,6000.00,10000.00,15000.00,5000.00
+24,Estado e Outros Entes Públicos,243,Retenções na Fonte AGT,BS,C,-,5000.00,8000.00,3000.00,4000.00,7000.00,3000.00
+26,Pessoal,261,Salários a Pagar,BS,C,-,90000.00,95000.00,5000.00,80000.00,85000.00,5000.00
+26,Pessoal,262,Adiantamentos ao Pessoal,BS,D,+,3000.00,1500.00,1500.00,2500.00,1000.00,1500.00
+31,Mercadorias,311,Stock de Materiais de Escritório,BS,D,+,8000.00,5000.00,3000.00,7000.00,4500.00,2500.00
+43,Ativos Fixos Tangíveis,432,Imóveis CAC,BS,D,+,500000.00,0.00,500000.00,500000.00,0.00,500000.00
+43,Ativos Fixos Tangíveis,433,Equipamento Informático,BS,D,+,80000.00,0.00,80000.00,65000.00,0.00,65000.00
+43,Ativos Fixos Tangíveis,434,Viaturas de Serviço,BS,D,+,120000.00,0.00,120000.00,120000.00,0.00,120000.00
+43,Ativos Fixos Tangíveis,438,Depreciações Acumuladas AFT,BS,C,-,0.00,95000.00,95000.00,0.00,70000.00,70000.00
+51,Capital,511,Capital Social CAC,BS,C,-,0.00,300000.00,300000.00,0.00,300000.00,300000.00
+55,Reservas,551,Reserva Legal,BS,C,-,0.00,45000.00,45000.00,0.00,40000.00,40000.00
+56,Resultados Transitados,561,Resultados Transitados,BS,C,-,0.00,62000.00,62000.00,0.00,50000.00,50000.00

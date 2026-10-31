@@ -1,0 +1,34 @@
+Sub_Conta,Rubrica,Tipo_Conta,Natureza,Valor_Bruto,Saldo_N1,Classificacao
+111,Caixa Geral CAC,BS,D,3000.00,1500.00,Balanço
+121,Conta Bancária BPC,BS,D,70000.00,40000.00,Balanço
+122,Conta Bancária BAI,BS,D,25000.00,15000.00,Balanço
+211,Clientes Nacionais,BS,D,25000.00,15000.00,Balanço
+212,Clientes Internacionais,BS,D,15000.00,12000.00,Balanço
+221,Fornecedores Nacionais,BS,C,20000.00,18000.00,Balanço
+222,Fornecedores Internacionais,BS,C,8000.00,7000.00,Balanço
+241,IRT a Pagar,BS,C,6000.00,5000.00,Balanço
+243,Retenções na Fonte AGT,BS,C,3000.00,3000.00,Balanço
+261,Salários a Pagar,BS,C,5000.00,5000.00,Balanço
+262,Adiantamentos ao Pessoal,BS,D,1500.00,1500.00,Balanço
+311,Stock de Materiais de Escritório,BS,D,3000.00,2500.00,Balanço
+432,Imóveis CAC,BS,D,500000.00,500000.00,Balanço
+433,Equipamento Informático,BS,D,80000.00,65000.00,Balanço
+434,Viaturas de Serviço,BS,D,120000.00,120000.00,Balanço
+438,Depreciações Acumuladas AFT,BS,C,95000.00,70000.00,Balanço
+511,Capital Social CAC,BS,C,300000.00,300000.00,Balanço
+551,Reserva Legal,BS,C,45000.00,40000.00,Balanço
+561,Resultados Transitados,BS,C,62000.00,50000.00,Balanço
+622,Materiais de Consumo,PL,D,12000.00,10000.00,Demonstração de Resultados
+623,Electricidade e Água,PL,D,9600.00,8400.00,Demonstração de Resultados
+624,Transportes e Deslocações,PL,D,7200.00,6000.00,Demonstração de Resultados
+625,Comunicações e Internet,PL,D,4800.00,4200.00,Demonstração de Resultados
+626,Seguros,PL,D,3600.00,3000.00,Demonstração de Resultados
+631,Remunerações da Direcção,PL,D,48000.00,42000.00,Demonstração de Resultados
+632,Remunerações dos Colaboradores,PL,D,54000.00,48000.00,Demonstração de Resultados
+635,Encargos Sociais,PL,D,15000.00,13500.00,Demonstração de Resultados
+641,Depreciações do Exercício,PL,D,25000.00,22000.00,Demonstração de Resultados
+681,Impostos e Taxas Diversas,PL,D,4500.00,3800.00,Demonstração de Resultados
+711,Quotas dos Associados,PL,C,95000.00,88000.00,Demonstração de Resultados
+721,Serviços de Formação,PL,C,42000.00,38000.00,Demonstração de Resultados
+722,Serviços de Consultoria,PL,C,28000.00,24000.00,Demonstração de Resultados
+781,Subsídios Recebidos,PL,C,15000.00,12000.00,Demonstração de Resultados

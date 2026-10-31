@@ -35,12 +35,30 @@ except ImportError:
     IN_COLAB = False
 
 
-# ── CELL 3: File-upload helper ────────────────────────────────────────────────
-def upload_file(label: str) -> io.BytesIO:
+# ── CELL 3: File-upload / file-read helpers ───────────────────────────────────
+
+# Set CSV_MODE = True to load from the repo CSV files instead of uploading Excel files.
+# Point CSV_DIR at the data/input folder (relative to this script or absolute).
+CSV_MODE = False
+CSV_DIR = "data/input"
+
+_CSV_FILES = {
+    "pgc":       "01_pgc_contas.csv",
+    "cac":       "02_cac_contas.csv",
+    "balancete": "03_balancete.csv",
+    "razao":     "04_diario_razao.csv",
+}
+
+
+def upload_file(label: str, csv_key: str = "") -> "io.BytesIO | str":
     """
-    In Colab: prompts the user to upload a file and returns its bytes.
-    Outside Colab: prompts for a local file path.
+    CSV_MODE=True  → returns the path to the matching CSV file in CSV_DIR.
+    CSV_MODE=False → In Colab: prompts upload; outside Colab: prompts local path.
     """
+    if CSV_MODE and csv_key:
+        path = os.path.join(CSV_DIR, _CSV_FILES[csv_key])
+        print(f"  [CSV] Reading: {path}")
+        return path
     if IN_COLAB:
         print(f"\nUpload: {label}")
         uploaded = colab_files.upload()
@@ -51,12 +69,21 @@ def upload_file(label: str) -> io.BytesIO:
         return open(path, "rb")
 
 
-def read_excel(buf, label: str) -> pd.DataFrame:
-    df = pd.read_excel(buf, dtype=str)
+def _read_file(buf, label: str) -> pd.DataFrame:
+    """Dispatch to CSV or Excel reader based on the buf type."""
+    if isinstance(buf, str):          # CSV path
+        df = pd.read_csv(buf, dtype=str)
+    else:                             # BytesIO / file object (Excel)
+        df = pd.read_excel(buf, dtype=str)
     df.columns = df.columns.str.strip()
     df.fillna("", inplace=True)
     print(f"  ✓ {label}: {len(df)} rows, columns: {list(df.columns)}")
     return df
+
+
+# Keep read_excel as an alias so nothing else breaks
+def read_excel(buf, label: str) -> pd.DataFrame:
+    return _read_file(buf, label)
 
 
 # ── CELL 4: Step 1 — Read Lista de Contas do PGC ─────────────────────────────
@@ -477,10 +504,10 @@ def run_workflow():
 
     # ── 1. Ingest inputs ────────────────────────────────────────────
     print("\n[1/4] Loading input files…")
-    df_pgc = read_pgc(upload_file("Lista de Contas do PGC (Excel)"))
-    df_cac_accounts = read_cac_accounts(upload_file("Lista de Contas Sistema CAC (Excel)"))
-    df_balancete_raw = read_balancete(upload_file("Integração de Balancete CAC N e N-1 (Excel)"))
-    df_razao = read_diario_razao(upload_file("Diário do Razão N e N-1 (Excel)"))
+    df_pgc = read_pgc(upload_file("Lista de Contas do PGC (Excel)", csv_key="pgc"))
+    df_cac_accounts = read_cac_accounts(upload_file("Lista de Contas Sistema CAC (Excel)", csv_key="cac"))
+    df_balancete_raw = read_balancete(upload_file("Integração de Balancete CAC N e N-1 (Excel)", csv_key="balancete"))
+    df_razao = read_diario_razao(upload_file("Diário do Razão N e N-1 (Excel)", csv_key="razao"))
 
     # ── 2. Map CAC → PGC Standard ───────────────────────────────────
     print("\n[2/4] Building CAC Standard List…")

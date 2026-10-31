@@ -1,0 +1,4 @@
+Conta,Sub_Conta,Periodo,Saldo_Inicial,Total_Debito,Total_Credito,Natureza,Saldo_Final,Saldo_N,Diferenca,Natureza_Esperada,Motivo
+26,261,N,5000.00,90000.00,95000.00,C,10000.00,5000.00,5000.00,C,Diferença de 5000.00 — verificar processamentos em trânsito
+26,262,N,1500.00,3000.00,1500.00,D,3000.00,1500.00,1500.00,D,Diferença de 1500.00 — adiantamento sem regularização
+43,438,N,70000.00,0.00,95000.00,C,165000.00,95000.00,70000.00,C,Diferença de 70000.00 — saldo inicial depreciações não reflectido

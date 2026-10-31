@@ -1,0 +1,144 @@
+Data,Conta,Sub_Conta,Desc_Sub_Conta,Historico,Saldo_Inicial,Debito,Credito,Periodo
+2024-01-31,11,111,Caixa Geral CAC,Saldo Inicial,1500.00,0.00,0.00,N
+2024-01-31,11,111,Caixa Geral CAC,Recebimento de quotas Jan,0.00,5000.00,0.00,N
+2024-02-28,11,111,Caixa Geral CAC,Pagamento despesas Fev,0.00,0.00,1200.00,N
+2024-03-31,11,111,Caixa Geral CAC,Recebimento formações Mar,0.00,4000.00,0.00,N
+2024-04-30,11,111,Caixa Geral CAC,Pagamento fornecedor Abr,0.00,0.00,800.00,N
+2024-05-31,11,111,Caixa Geral CAC,Recebimento quotas Mai,0.00,3500.00,0.00,N
+2024-06-30,11,111,Caixa Geral CAC,Pagamento encargos Jun,0.00,0.00,1000.00,N
+2024-07-31,11,111,Caixa Geral CAC,Recebimento diversos Jul,0.00,1500.00,0.00,N
+2024-08-31,11,111,Caixa Geral CAC,Pagamento material Ago,0.00,0.00,500.00,N
+2024-09-30,11,111,Caixa Geral CAC,Recebimento quotas Set,0.00,1000.00,0.00,N
+2024-10-31,11,111,Caixa Geral CAC,Pagamento fornecedor Out,0.00,0.00,700.00,N
+2024-11-30,11,111,Caixa Geral CAC,Recebimento subsídio Nov,0.00,1500.00,0.00,N
+2024-12-31,11,111,Caixa Geral CAC,Encerramento Dez,0.00,0.00,500.00,N
+2024-01-31,12,121,Conta Bancária BPC,Saldo Inicial,40000.00,0.00,0.00,N
+2024-01-31,12,121,Conta Bancária BPC,Transferências recebidas Jan,0.00,35000.00,0.00,N
+2024-02-28,12,121,Conta Bancária BPC,Pagamentos bancários Fev,0.00,0.00,20000.00,N
+2024-03-31,12,121,Conta Bancária BPC,Recebimentos Mar,0.00,30000.00,0.00,N
+2024-04-30,12,121,Conta Bancária BPC,Pagamentos Abr,0.00,0.00,18000.00,N
+2024-05-31,12,121,Conta Bancária BPC,Recebimentos Mai,0.00,28000.00,0.00,N
+2024-06-30,12,121,Conta Bancária BPC,Pagamentos Jun,0.00,0.00,15000.00,N
+2024-07-31,12,121,Conta Bancária BPC,Recebimentos Jul,0.00,25000.00,0.00,N
+2024-08-31,12,121,Conta Bancária BPC,Pagamentos Ago,0.00,0.00,12000.00,N
+2024-09-30,12,121,Conta Bancária BPC,Recebimentos Set,0.00,22000.00,0.00,N
+2024-10-31,12,121,Conta Bancária BPC,Pagamentos Out,0.00,0.00,18000.00,N
+2024-11-30,12,121,Conta Bancária BPC,Recebimentos Nov,0.00,20000.00,0.00,N
+2024-12-31,12,121,Conta Bancária BPC,Pagamentos Dez,0.00,0.00,17000.00,N
+2024-01-31,12,122,Conta Bancária BAI,Saldo Inicial,15000.00,0.00,0.00,N
+2024-03-31,12,122,Conta Bancária BAI,Transferência recebida Mar,0.00,20000.00,0.00,N
+2024-06-30,12,122,Conta Bancária BAI,Pagamento fornecedor Jun,0.00,0.00,15000.00,N
+2024-09-30,12,122,Conta Bancária BAI,Recebimento Set,0.00,18000.00,0.00,N
+2024-12-31,12,122,Conta Bancária BAI,Pagamento Dez,0.00,0.00,13000.00,N
+2024-01-31,21,211,Clientes Nacionais,Saldo Inicial,15000.00,0.00,0.00,N
+2024-01-31,21,211,Clientes Nacionais,Facturação Jan,0.00,12000.00,0.00,N
+2024-02-28,21,211,Clientes Nacionais,Recebimentos Fev,0.00,0.00,8000.00,N
+2024-03-31,21,211,Clientes Nacionais,Facturação Mar,0.00,10000.00,0.00,N
+2024-04-30,21,211,Clientes Nacionais,Recebimentos Abr,0.00,0.00,7000.00,N
+2024-06-30,21,211,Clientes Nacionais,Facturação Jun,0.00,15000.00,0.00,N
+2024-08-31,21,211,Clientes Nacionais,Recebimentos Ago,0.00,0.00,10000.00,N
+2024-10-31,21,211,Clientes Nacionais,Facturação Out,0.00,18000.00,0.00,N
+2024-12-31,21,211,Clientes Nacionais,Recebimentos Dez,0.00,0.00,25000.00,N
+2024-01-31,21,212,Clientes Internacionais,Saldo Inicial,12000.00,0.00,0.00,N
+2024-02-28,21,212,Clientes Internacionais,Facturação export Fev,0.00,8000.00,0.00,N
+2024-05-31,21,212,Clientes Internacionais,Recebimento Mai,0.00,0.00,10000.00,N
+2024-08-31,21,212,Clientes Internacionais,Facturação export Ago,0.00,15000.00,0.00,N
+2024-11-30,21,212,Clientes Internacionais,Recebimento Nov,0.00,0.00,10000.00,N
+2024-01-31,22,221,Fornecedores Nacionais,Saldo Inicial,18000.00,0.00,0.00,N
+2024-01-31,22,221,Fornecedores Nacionais,Factura fornecedor Jan,0.00,0.00,8000.00,N
+2024-02-28,22,221,Fornecedores Nacionais,Pagamento Fev,0.00,5000.00,0.00,N
+2024-04-30,22,221,Fornecedores Nacionais,Factura fornecedor Abr,0.00,0.00,12000.00,N
+2024-06-30,22,221,Fornecedores Nacionais,Pagamento Jun,0.00,8000.00,0.00,N
+2024-09-30,22,221,Fornecedores Nacionais,Factura fornecedor Set,0.00,0.00,15000.00,N
+2024-12-31,22,221,Fornecedores Nacionais,Pagamento Dez,0.00,22000.00,0.00,N
+2024-01-31,26,261,Salários a Pagar,Saldo Inicial,5000.00,0.00,0.00,N
+2024-01-31,26,261,Salários a Pagar,Processamento salários Jan,0.00,0.00,8500.00,N
+2024-01-31,26,261,Salários a Pagar,Pagamento salários Jan,0.00,8500.00,0.00,N
+2024-02-28,26,261,Salários a Pagar,Processamento salários Fev,0.00,0.00,8500.00,N
+2024-02-28,26,261,Salários a Pagar,Pagamento salários Fev,0.00,8000.00,0.00,N
+2024-03-31,26,261,Salários a Pagar,Processamento salários Mar,0.00,0.00,8500.00,N
+2024-03-31,26,261,Salários a Pagar,Pagamento salários Mar,0.00,8500.00,0.00,N
+2024-04-30,26,261,Salários a Pagar,Processamento salários Abr,0.00,0.00,8500.00,N
+2024-04-30,26,261,Salários a Pagar,Pagamento salários Abr,0.00,8500.00,0.00,N
+2024-05-31,26,261,Salários a Pagar,Processamento salários Mai,0.00,0.00,8500.00,N
+2024-05-31,26,261,Salários a Pagar,Pagamento salários Mai,0.00,8500.00,0.00,N
+2024-06-30,26,261,Salários a Pagar,Processamento salários Jun,0.00,0.00,8500.00,N
+2024-06-30,26,261,Salários a Pagar,Pagamento salários Jun,0.00,8500.00,0.00,N
+2024-07-31,26,261,Salários a Pagar,Processamento salários Jul,0.00,0.00,9000.00,N
+2024-07-31,26,261,Salários a Pagar,Pagamento salários Jul,0.00,9000.00,0.00,N
+2024-08-31,26,261,Salários a Pagar,Processamento salários Ago,0.00,0.00,9000.00,N
+2024-08-31,26,261,Salários a Pagar,Pagamento salários Ago,0.00,9000.00,0.00,N
+2024-09-30,26,261,Salários a Pagar,Processamento salários Set,0.00,0.00,9000.00,N
+2024-09-30,26,261,Salários a Pagar,Pagamento salários Set,0.00,9000.00,0.00,N
+2024-10-31,26,261,Salários a Pagar,Processamento salários Out,0.00,0.00,9000.00,N
+2024-10-31,26,261,Salários a Pagar,Pagamento salários Out,0.00,9000.00,0.00,N
+2024-11-30,26,261,Salários a Pagar,Processamento salários Nov,0.00,0.00,9000.00,N
+2024-11-30,26,261,Salários a Pagar,Pagamento salários Nov,0.00,9000.00,0.00,N
+2024-12-31,26,261,Salários a Pagar,Processamento salários Dez,0.00,0.00,9000.00,N
+2024-12-31,26,261,Salários a Pagar,Pagamento salários Dez,0.00,4000.00,0.00,N
+2024-01-31,62,622,Materiais de Consumo,Compra materiais Jan,0.00,1000.00,0.00,N
+2024-02-28,62,622,Materiais de Consumo,Compra materiais Fev,0.00,1000.00,0.00,N
+2024-03-31,62,622,Materiais de Consumo,Compra materiais Mar,0.00,1000.00,0.00,N
+2024-04-30,62,622,Materiais de Consumo,Compra materiais Abr,0.00,1000.00,0.00,N
+2024-05-31,62,622,Materiais de Consumo,Compra materiais Mai,0.00,1000.00,0.00,N
+2024-06-30,62,622,Materiais de Consumo,Compra materiais Jun,0.00,1000.00,0.00,N
+2024-07-31,62,622,Materiais de Consumo,Compra materiais Jul,0.00,1000.00,0.00,N
+2024-08-31,62,622,Materiais de Consumo,Compra materiais Ago,0.00,1000.00,0.00,N
+2024-09-30,62,622,Materiais de Consumo,Compra materiais Set,0.00,1000.00,0.00,N
+2024-10-31,62,622,Materiais de Consumo,Compra materiais Out,0.00,1000.00,0.00,N
+2024-11-30,62,622,Materiais de Consumo,Compra materiais Nov,0.00,1000.00,0.00,N
+2024-12-31,62,622,Materiais de Consumo,Compra materiais Dez,0.00,1000.00,0.00,N
+2024-01-31,63,631,Remunerações da Direcção,Processamento Jan,0.00,4000.00,0.00,N
+2024-02-28,63,631,Remunerações da Direcção,Processamento Fev,0.00,4000.00,0.00,N
+2024-03-31,63,631,Remunerações da Direcção,Processamento Mar,0.00,4000.00,0.00,N
+2024-04-30,63,631,Remunerações da Direcção,Processamento Abr,0.00,4000.00,0.00,N
+2024-05-31,63,631,Remunerações da Direcção,Processamento Mai,0.00,4000.00,0.00,N
+2024-06-30,63,631,Remunerações da Direcção,Processamento Jun,0.00,4000.00,0.00,N
+2024-07-31,63,631,Remunerações da Direcção,Processamento Jul,0.00,4000.00,0.00,N
+2024-08-31,63,631,Remunerações da Direcção,Processamento Ago,0.00,4000.00,0.00,N
+2024-09-30,63,631,Remunerações da Direcção,Processamento Set,0.00,4000.00,0.00,N
+2024-10-31,63,631,Remunerações da Direcção,Processamento Out,0.00,4000.00,0.00,N
+2024-11-30,63,631,Remunerações da Direcção,Processamento Nov,0.00,4000.00,0.00,N
+2024-12-31,63,631,Remunerações da Direcção,Processamento Dez,0.00,4000.00,0.00,N
+2024-01-31,63,632,Remunerações dos Colaboradores,Processamento Jan,0.00,4500.00,0.00,N
+2024-02-28,63,632,Remunerações dos Colaboradores,Processamento Fev,0.00,4500.00,0.00,N
+2024-03-31,63,632,Remunerações dos Colaboradores,Processamento Mar,0.00,4500.00,0.00,N
+2024-04-30,63,632,Remunerações dos Colaboradores,Processamento Abr,0.00,4500.00,0.00,N
+2024-05-31,63,632,Remunerações dos Colaboradores,Processamento Mai,0.00,4500.00,0.00,N
+2024-06-30,63,632,Remunerações dos Colaboradores,Processamento Jun,0.00,4500.00,0.00,N
+2024-07-31,63,632,Remunerações dos Colaboradores,Processamento Jul,0.00,4500.00,0.00,N
+2024-08-31,63,632,Remunerações dos Colaboradores,Processamento Ago,0.00,4500.00,0.00,N
+2024-09-30,63,632,Remunerações dos Colaboradores,Processamento Set,0.00,4500.00,0.00,N
+2024-10-31,63,632,Remunerações dos Colaboradores,Processamento Out,0.00,4500.00,0.00,N
+2024-11-30,63,632,Remunerações dos Colaboradores,Processamento Nov,0.00,4500.00,0.00,N
+2024-12-31,63,632,Remunerações dos Colaboradores,Processamento Dez,0.00,4500.00,0.00,N
+2024-01-31,71,711,Quotas dos Associados,Quotas Jan,0.00,0.00,8000.00,N
+2024-02-28,71,711,Quotas dos Associados,Quotas Fev,0.00,0.00,7500.00,N
+2024-03-31,71,711,Quotas dos Associados,Quotas Mar,0.00,0.00,8000.00,N
+2024-04-30,71,711,Quotas dos Associados,Quotas Abr,0.00,0.00,7800.00,N
+2024-05-31,71,711,Quotas dos Associados,Quotas Mai,0.00,0.00,8200.00,N
+2024-06-30,71,711,Quotas dos Associados,Quotas Jun,0.00,0.00,7500.00,N
+2024-07-31,71,711,Quotas dos Associados,Quotas Jul,0.00,0.00,8000.00,N
+2024-08-31,71,711,Quotas dos Associados,Quotas Ago,0.00,0.00,7500.00,N
+2024-09-30,71,711,Quotas dos Associados,Quotas Set,0.00,0.00,8500.00,N
+2024-10-31,71,711,Quotas dos Associados,Quotas Out,0.00,0.00,8000.00,N
+2024-11-30,71,711,Quotas dos Associados,Quotas Nov,0.00,0.00,8000.00,N
+2024-12-31,71,711,Quotas dos Associados,Quotas Dez,0.00,0.00,8000.00,N
+2024-03-31,72,721,Serviços de Formação,Curso Liderança Mar,0.00,0.00,7000.00,N
+2024-06-30,72,721,Serviços de Formação,Workshop Gestão Jun,0.00,0.00,12000.00,N
+2024-09-30,72,721,Serviços de Formação,Seminário Fiscal Set,0.00,0.00,10000.00,N
+2024-11-30,72,721,Serviços de Formação,Curso Contabilidade Nov,0.00,0.00,13000.00,N
+2024-04-30,72,722,Serviços de Consultoria,Consultoria empresarial Abr,0.00,0.00,8000.00,N
+2024-07-31,72,722,Serviços de Consultoria,Consultoria jurídica Jul,0.00,0.00,10000.00,N
+2024-10-31,72,722,Serviços de Consultoria,Consultoria fiscal Out,0.00,0.00,10000.00,N
+2024-06-30,78,781,Subsídios Recebidos,Subsídio Gov Jun,0.00,0.00,15000.00,N
+2023-01-31,11,111,Caixa Geral CAC,Saldo Inicial N-1,500.00,0.00,0.00,N1
+2023-01-31,11,111,Caixa Geral CAC,Movimentos N-1,0.00,10000.00,8500.00,N1
+2023-01-31,12,121,Conta Bancária BPC,Saldo Inicial N-1,20000.00,0.00,0.00,N1
+2023-01-31,12,121,Conta Bancária BPC,Movimentos N-1,0.00,200000.00,180000.00,N1
+2023-01-31,21,211,Clientes Nacionais,Saldo Inicial N-1,5000.00,0.00,0.00,N1
+2023-01-31,21,211,Clientes Nacionais,Movimentos N-1,0.00,70000.00,60000.00,N1
+2023-01-31,22,221,Fornecedores Nacionais,Saldo Inicial N-1,10000.00,0.00,0.00,N1
+2023-01-31,22,221,Fornecedores Nacionais,Movimentos N-1,0.00,30000.00,40000.00,N1
+2023-01-31,71,711,Quotas dos Associados,Quotas N-1,0.00,0.00,88000.00,N1
+2023-01-31,72,721,Serviços de Formação,Formações N-1,0.00,0.00,38000.00,N1

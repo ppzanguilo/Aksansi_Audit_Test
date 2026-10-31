@@ -1,0 +1,8 @@
+Conta,Desc_Conta,Tipo_Conta,Natureza,Debito_N,Credito_N,Saldo_N,Debito_N1,Credito_N1,Saldo_N1
+62,Fornecimentos e Serviços Externos,PL,D,37200.00,0.00,37200.00,31600.00,0.00,31600.00
+63,Gastos com Pessoal,PL,D,117000.00,0.00,117000.00,103500.00,0.00,103500.00
+64,Gastos de Depreciação e Amortização,PL,D,25000.00,0.00,25000.00,22000.00,0.00,22000.00
+68,Outros Gastos e Perdas,PL,D,4500.00,0.00,4500.00,3800.00,0.00,3800.00
+71,Vendas,PL,C,0.00,95000.00,95000.00,0.00,88000.00,88000.00
+72,Prestações de Serviços,PL,C,0.00,70000.00,70000.00,0.00,62000.00,62000.00
+78,Outros Rendimentos e Ganhos,PL,C,0.00,15000.00,15000.00,0.00,12000.00,12000.00

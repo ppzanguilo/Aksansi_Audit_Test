@@ -1,0 +1,50 @@
+Classe,Desc_Classe,Conta,Desc_Conta,Sub_Conta,Desc_Sub_Conta,Tipo_Conta,Natureza,Tipo_Movimento,Ativo,Passivo,Gastos,Rendimentos
+1,Meios Financeiros Líquidos,11,Caixa,111,Caixa Geral,BS,D,+,Sim,Não,Não,Não
+1,Meios Financeiros Líquidos,11,Caixa,112,Fundo de Maneio,BS,D,+,Sim,Não,Não,Não
+1,Meios Financeiros Líquidos,12,Depósitos à Ordem,121,Depósitos em Bancos Nacionais,BS,D,+,Sim,Não,Não,Não
+1,Meios Financeiros Líquidos,12,Depósitos à Ordem,122,Depósitos em Bancos Estrangeiros,BS,D,+,Sim,Não,Não,Não
+1,Meios Financeiros Líquidos,13,Outros Depósitos Bancários,131,Depósitos a Prazo,BS,D,+,Sim,Não,Não,Não
+2,Contas a Receber e a Pagar,21,Clientes,211,Clientes Conta Corrente,BS,D,+,Sim,Não,Não,Não
+2,Contas a Receber e a Pagar,21,Clientes,212,Clientes Títulos a Receber,BS,D,+,Sim,Não,Não,Não
+2,Contas a Receber e a Pagar,21,Clientes,218,Adiantamentos de Clientes,BS,C,-,Não,Sim,Não,Não
+2,Contas a Receber e a Pagar,22,Fornecedores,221,Fornecedores Conta Corrente,BS,C,-,Não,Sim,Não,Não
+2,Contas a Receber e a Pagar,22,Fornecedores,222,Fornecedores Títulos a Pagar,BS,C,-,Não,Sim,Não,Não
+2,Contas a Receber e a Pagar,24,Estado e Outros Entes Públicos,241,Imposto sobre Rendimento,BS,C,-,Não,Sim,Não,Não
+2,Contas a Receber e a Pagar,24,Estado e Outros Entes Públicos,243,Retenções na Fonte,BS,C,-,Não,Sim,Não,Não
+2,Contas a Receber e a Pagar,26,Pessoal,261,Remunerações a Pagar,BS,C,-,Não,Sim,Não,Não
+2,Contas a Receber e a Pagar,26,Pessoal,262,Adiantamentos ao Pessoal,BS,D,+,Sim,Não,Não,Não
+2,Contas a Receber e a Pagar,27,Outras Contas a Receber e a Pagar,271,Empréstimos Concedidos,BS,D,+,Sim,Não,Não,Não
+2,Contas a Receber e a Pagar,27,Outras Contas a Receber e a Pagar,272,Devedores e Credores Diversos,BS,D,+,Sim,Não,Não,Não
+3,Inventários e Ativos Biológicos,31,Mercadorias,311,Mercadorias em Armazém,BS,D,+,Sim,Não,Não,Não
+3,Inventários e Ativos Biológicos,32,Matérias-Primas,321,Matérias-Primas em Armazém,BS,D,+,Sim,Não,Não,Não
+4,Investimentos,41,Investimentos Financeiros,411,Partes de Capital em Empresas do Grupo,BS,D,+,Sim,Não,Não,Não
+4,Investimentos,43,Ativos Fixos Tangíveis,431,Terrenos e Recursos Naturais,BS,D,+,Sim,Não,Não,Não
+4,Investimentos,43,Ativos Fixos Tangíveis,432,Edifícios e Outras Construções,BS,D,+,Sim,Não,Não,Não
+4,Investimentos,43,Ativos Fixos Tangíveis,433,Equipamento Básico,BS,D,+,Sim,Não,Não,Não
+4,Investimentos,43,Ativos Fixos Tangíveis,434,Equipamento de Transporte,BS,D,+,Sim,Não,Não,Não
+4,Investimentos,43,Ativos Fixos Tangíveis,438,Depreciações Acumuladas,BS,C,-,Não,Sim,Não,Não
+4,Investimentos,44,Ativos Intangíveis,441,Goodwill,BS,D,+,Sim,Não,Não,Não
+4,Investimentos,44,Ativos Intangíveis,442,Projetos de Desenvolvimento,BS,D,+,Sim,Não,Não,Não
+5,Capital Próprio,51,Capital,511,Capital Subscrito,BS,C,-,Não,Sim,Não,Não
+5,Capital Próprio,52,Ações Próprias,521,Ações Próprias - Valor Nominal,BS,D,+,Sim,Não,Não,Não
+5,Capital Próprio,55,Reservas,551,Reservas Legais,BS,C,-,Não,Sim,Não,Não
+5,Capital Próprio,55,Reservas,552,Reservas Estatutárias,BS,C,-,Não,Sim,Não,Não
+5,Capital Próprio,56,Resultados Transitados,561,Resultados Transitados,BS,C,-,Não,Sim,Não,Não
+6,Gastos,61,Custo das Mercadorias Vendidas,611,Mercadorias,PL,D,+,Não,Não,Sim,Não
+6,Gastos,62,Fornecimentos e Serviços Externos,621,Subcontratos,PL,D,+,Não,Não,Sim,Não
+6,Gastos,62,Fornecimentos e Serviços Externos,622,Materiais,PL,D,+,Não,Não,Sim,Não
+6,Gastos,62,Fornecimentos e Serviços Externos,623,Energia e Fluidos,PL,D,+,Não,Não,Sim,Não
+6,Gastos,62,Fornecimentos e Serviços Externos,624,Transportes,PL,D,+,Não,Não,Sim,Não
+6,Gastos,62,Fornecimentos e Serviços Externos,625,Comunicações,PL,D,+,Não,Não,Sim,Não
+6,Gastos,62,Fornecimentos e Serviços Externos,626,Seguros,PL,D,+,Não,Não,Sim,Não
+6,Gastos,63,Gastos com Pessoal,631,Remunerações dos Órgãos Sociais,PL,D,+,Não,Não,Sim,Não
+6,Gastos,63,Gastos com Pessoal,632,Remunerações do Pessoal,PL,D,+,Não,Não,Sim,Não
+6,Gastos,63,Gastos com Pessoal,635,Encargos sobre Remunerações,PL,D,+,Não,Não,Sim,Não
+6,Gastos,64,Gastos de Depreciação e Amortização,641,Depreciações de AFT,PL,D,+,Não,Não,Sim,Não
+6,Gastos,68,Outros Gastos e Perdas,681,Impostos e Taxas,PL,D,+,Não,Não,Sim,Não
+6,Gastos,68,Outros Gastos e Perdas,682,Donativos e Quotizações,PL,D,+,Não,Não,Sim,Não
+7,Rendimentos,71,Vendas,711,Vendas de Mercadorias,PL,C,-,Não,Não,Não,Sim
+7,Rendimentos,71,Vendas,712,Vendas de Produtos Acabados,PL,C,-,Não,Não,Não,Sim
+7,Rendimentos,72,Prestações de Serviços,721,Serviços Prestados,PL,C,-,Não,Não,Não,Sim
+7,Rendimentos,78,Outros Rendimentos e Ganhos,781,Rendimentos Suplementares,PL,C,-,Não,Não,Não,Sim
+7,Rendimentos,78,Outros Rendimentos e Ganhos,782,Descontos de Pronto Pagamento Obtidos,PL,C,-,Não,Não,Não,Sim

@@ -1,0 +1,34 @@
+Conta,Desc_Conta,Sub_Conta,Desc_Sub_Conta,Classe,Desc_Classe,Tipo_Conta,Natureza,Tipo_Movimento,Ativo,Passivo,Gastos,Rendimentos
+11,Caixa,111,Caixa Geral CAC,1,Meios Financeiros Líquidos,BS,D,+,Sim,Não,Não,Não
+12,Depósitos à Ordem,121,Conta Bancária BPC,1,Meios Financeiros Líquidos,BS,D,+,Sim,Não,Não,Não
+12,Depósitos à Ordem,122,Conta Bancária BAI,1,Meios Financeiros Líquidos,BS,D,+,Sim,Não,Não,Não
+21,Clientes,211,Clientes Nacionais,2,Contas a Receber e a Pagar,BS,D,+,Sim,Não,Não,Não
+21,Clientes,212,Clientes Internacionais,2,Contas a Receber e a Pagar,BS,D,+,Sim,Não,Não,Não
+22,Fornecedores,221,Fornecedores Nacionais,2,Contas a Receber e a Pagar,BS,C,-,Não,Sim,Não,Não
+22,Fornecedores,222,Fornecedores Internacionais,2,Contas a Receber e a Pagar,BS,C,-,Não,Sim,Não,Não
+24,Estado e Outros Entes Públicos,241,IRT a Pagar,2,Contas a Receber e a Pagar,BS,C,-,Não,Sim,Não,Não
+24,Estado e Outros Entes Públicos,243,Retenções na Fonte AGT,2,Contas a Receber e a Pagar,BS,C,-,Não,Sim,Não,Não
+26,Pessoal,261,Salários a Pagar,2,Contas a Receber e a Pagar,BS,C,-,Não,Sim,Não,Não
+26,Pessoal,262,Adiantamentos ao Pessoal,2,Contas a Receber e a Pagar,BS,D,+,Sim,Não,Não,Não
+31,Mercadorias,311,Stock de Materiais de Escritório,3,Inventários e Ativos Biológicos,BS,D,+,Sim,Não,Não,Não
+43,Ativos Fixos Tangíveis,432,Imóveis CAC,4,Investimentos,BS,D,+,Sim,Não,Não,Não
+43,Ativos Fixos Tangíveis,433,Equipamento Informático,4,Investimentos,BS,D,+,Sim,Não,Não,Não
+43,Ativos Fixos Tangíveis,434,Viaturas de Serviço,4,Investimentos,BS,D,+,Sim,Não,Não,Não
+43,Ativos Fixos Tangíveis,438,Depreciações Acumuladas AFT,4,Investimentos,BS,C,-,Não,Sim,Não,Não
+51,Capital,511,Capital Social CAC,5,Capital Próprio,BS,C,-,Não,Sim,Não,Não
+55,Reservas,551,Reserva Legal,5,Capital Próprio,BS,C,-,Não,Sim,Não,Não
+56,Resultados Transitados,561,Resultados Transitados,5,Capital Próprio,BS,C,-,Não,Sim,Não,Não
+62,Fornecimentos e Serviços Externos,622,Materiais de Consumo,6,Gastos,PL,D,+,Não,Não,Sim,Não
+62,Fornecimentos e Serviços Externos,623,Electricidade e Água,6,Gastos,PL,D,+,Não,Não,Sim,Não
+62,Fornecimentos e Serviços Externos,624,Transportes e Deslocações,6,Gastos,PL,D,+,Não,Não,Sim,Não
+62,Fornecimentos e Serviços Externos,625,Comunicações e Internet,6,Gastos,PL,D,+,Não,Não,Sim,Não
+62,Fornecimentos e Serviços Externos,626,Seguros,6,Gastos,PL,D,+,Não,Não,Sim,Não
+63,Gastos com Pessoal,631,Remunerações da Direcção,6,Gastos,PL,D,+,Não,Não,Sim,Não
+63,Gastos com Pessoal,632,Remunerações dos Colaboradores,6,Gastos,PL,D,+,Não,Não,Sim,Não
+63,Gastos com Pessoal,635,Encargos Sociais,6,Gastos,PL,D,+,Não,Não,Sim,Não
+64,Gastos de Depreciação e Amortização,641,Depreciações do Exercício,6,Gastos,PL,D,+,Não,Não,Sim,Não
+68,Outros Gastos e Perdas,681,Impostos e Taxas Diversas,6,Gastos,PL,D,+,Não,Não,Sim,Não
+71,Vendas,711,Quotas dos Associados,7,Rendimentos,PL,C,-,Não,Não,Não,Sim
+72,Prestações de Serviços,721,Serviços de Formação,7,Rendimentos,PL,C,-,Não,Não,Não,Sim
+72,Prestações de Serviços,722,Serviços de Consultoria,7,Rendimentos,PL,C,-,Não,Não,Não,Sim
+78,Outros Rendimentos e Ganhos,781,Subsídios Recebidos,7,Rendimentos,PL,C,-,Não,Não,Não,Sim
